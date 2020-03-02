@@ -25,7 +25,6 @@ public class PrimeNumFrom1Ton {
 			System.out.print(i + " ");
 				 
 		 }
-		
 	}
 
 }

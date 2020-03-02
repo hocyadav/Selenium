@@ -10,7 +10,6 @@ public class QueueTest {
 		obj.add(10); 
 		obj.add(20); 
 		obj.add(30); 
-
 		
 		System.out.println("Queue : "+obj);
 //		try {

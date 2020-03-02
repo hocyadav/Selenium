@@ -21,11 +21,10 @@ public class AllCheckBox {
         
         for(int i = 0; i <chcksize; i++)
         {
-        	//System.out.println("i "+i);
+        	
 			WebElement chckget = allChckbox.get(i);
-        	//System.out.println("chckget.isSelected() "+chckget.isSelected());
         	if(chckget.isSelected() == false)
-        		chckget.click(); 
+        	chckget.click(); 
         }
 	}
 

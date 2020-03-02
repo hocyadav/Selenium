@@ -8,6 +8,7 @@ public class DemoRadio {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new FirefoxDriver();
+		//FirefoxDriver driver = new FirefoxDriver();(Interface logic)
 		driver.get("https://krninformatix.com/sample.html");
 		boolean status=driver.findElement(By.id("female")).isSelected();
 		System.out.println(status);
